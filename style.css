@@ -5,7 +5,8 @@
 }
 
 body {
-    font-family: 'Comic Sans MS', 'Chalkboard', cursive;
+    font-family: 'Comic Neue', 'Comic Sans MS', cursive;
+    font-weight: 700;
     min-height: 100vh;
     display: flex;
     justify-content: center;
