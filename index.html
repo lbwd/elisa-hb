@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luogo Segreto</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Pagina di input -->
     <div id="input-page" class="container">
         <label for="secret-input">Inserisci qua il luogo segreto</label>
         <input type="text" id="secret-input" placeholder="...">
         <button id="submit-btn">Invia</button>
+        <p id="error-message" class="hidden">Sbagliato! Riprova 🤔</p>
     </div>
 
     <!-- Pagina segreta (da modificare) -->
     <div id="secret-page" class="container hidden">
-        <h1>Benvenuto!</h1>
-        <p>Hai trovato il luogo segreto.</p>
-        <!-- Modifica questa sezione come preferisci -->
+        <h1>🎁 Ecco il tuo regalo! 🎁</h1>
+        <p class="main-message">Prepara la valigia, si parte per il weekend!</p>
+        <p class="details">📅 Partenza sabato mattina verso le 9:00</p>
+        <p class="hint">Non saprai la destinazione, ma ti diamo un aiuto sul meteo 😁</p>
+        <div class="meteo-links">
+            <a href="img/1sab.png" target="_blank">Meteo Sabato ☀️</a>
+            <a href="img/2dom.png" target="_blank">Meteo Domenica ☀️</a>
+        </div>
     </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
